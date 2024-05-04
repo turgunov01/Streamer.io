@@ -1,0 +1,102 @@
+.partners {
+    &-title {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.6rem;
+        letter-spacing: .075rem;
+        text-align: center;
+    }
+
+    &-description {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.8rem;
+        letter-spacing: .044999998807907104rem;
+        text-align: center;
+    }
+
+    &-box {
+        margin-top: 2rem;
+
+        &-name {
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 2.8rem;
+            letter-spacing: .05rem;
+            text-align: left;
+
+        }
+    }
+
+    &-cards {
+        margin-top: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 4rem;
+    }
+
+    &-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.6rem;
+        background: #3E3E3E7A;
+        border-radius: 1.6rem;
+
+        &-image {
+            max-width: 38.4rem;
+            width: 100%;
+            border-radius: 1.6rem;
+        }
+
+        &-fp {
+            width: 14.5rem;
+            height: 10.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            box-shadow: 0 .645rem 2.58rem 0 #04041A3D;
+            box-shadow: 0 0 0 0.081rem #9AA9B83D;
+            background: linear-gradient(0deg, rgba(78, 78, 78, 0.32), rgba(78, 78, 78, 0.32)),
+                linear-gradient(0deg, rgba(66, 66, 66, 0.48), rgba(66, 66, 66, 0.48));
+            border-radius: 1.2rem;
+
+            & h4 {
+                font-size: 4.159rem;
+                font-weight: 700;
+                line-height: 100%;
+                text-align: center;
+            }
+
+            & p {
+                font-size: 1.29rem;
+                font-weight: 700;
+                line-height: 1.935rem;
+                text-align: center;
+            }
+        }
+
+        &-button {
+            background: #FFFFFF;
+            color: #000000;
+            width: 20rem;
+            height: 7rem;
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 1.8rem;
+            letter-spacing: 0.05rem;
+            text-align: center;
+            border-radius: .8rem;
+        }
+
+        &-guarantee {
+            display: flex;
+            align-items: center;
+            gap: 1.8rem;
+        }
+
+
+    }
+}
