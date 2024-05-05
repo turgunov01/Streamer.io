@@ -107,6 +107,11 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 1.6rem 0;
+    position: fixed;
+    left: 22rem;
+    top: 0;
+    width: 100%;
+    max-width: calc(100% - 22rem);
 }
 
 .nav-container {
@@ -148,7 +153,8 @@ ul {
     max-width: 114rem;
     margin: 0 auto;
     padding: 4.5rem 0;
-    margin-bottom: 30rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
 }
 
 .title {
@@ -401,9 +407,6 @@ ul {
 .footer {
     background: #1B1B1B;
     padding: 3rem 0;
-    position: fixed;
-    left: 22rem;
-    bottom: 0;
     width: calc(100% - 22rem);
     height: 30rem;
 }
@@ -476,4 +479,3 @@ ul {
     line-height: 2.933rem;
 
 }
-
